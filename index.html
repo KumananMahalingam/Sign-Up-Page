@@ -17,19 +17,19 @@
             <div class="first-row">
                 <div class="first">
                     <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" placeholder="Bob..." name="first_name" required>
+                    <input type="text" id="first_name" placeholder="Bob..." name="first_name" pattern="[A-Za-z]">
                 </div>
 
                 <div class="last">
                     <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" placeholder="Wang..." name="last_name" required>
+                    <input type="text" id="last_name" placeholder="Wang..." name="last_name" pattern="[A-Za-z]">
                 </div>
             </div>
 
             <div class="second-row">
                 <div class="email">
                     <label for="user_email">Email</label>
-                    <input type="email" id="user_email" placeholder="you@example.com..." name="email">
+                    <input type="email" id="user_email" placeholder="you@example.com..." name="email" pattern=".+@example\.com">
                 </div>
 
                 <div class="phonenumber">

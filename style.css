@@ -56,9 +56,12 @@ img {
 
 button, input, select {
     font-size: 100%;
-    margin: 0;
+    margin: 4px;
     max-width: 100%;
     vertical-align: baseline;
+    border-color: rgb(201, 192, 192);
+    border-radius: 8px;
+    padding: 4px;
 }
 
 .submit {
@@ -70,6 +73,14 @@ button, input, select {
 }
 
 h2 {
-    margin-bottom: -158px;
+    margin-bottom: -100px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    border-color: green;
 }
 

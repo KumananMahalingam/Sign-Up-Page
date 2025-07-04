@@ -1,0 +1,75 @@
+
+body {
+    display: flex;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    color: #666
+}
+
+.bg-container {
+    padding: 0;
+    margin: 0;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 130vh;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first, .last, .email, .phonenumber, .password, .confirmpassword {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.third-row {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 70vh;
+    height: 100vh;
+}
+
+button, input, select {
+    font-size: 100%;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: baseline;
+}
+
+.submit {
+    padding: 8px 16px;
+    background-color: rgb(30, 156, 30);
+    font-size: 100%;
+    border-radius: 8px;
+    color: white;
+}
+
+h2 {
+    margin-bottom: -158px;
+}
+
